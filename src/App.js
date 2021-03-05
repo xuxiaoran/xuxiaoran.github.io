@@ -1,16 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-function App() {
+import "./App.css";
+import TopNav from "./components/TopNav";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
+import Collection from "./components/Collection";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          New site in ReactJS coming soon...
-        </p>
-      </header>
-    </div>
+    <React.Fragment>
+      <BrowserRouter>
+        <TopNav />
+        <div className="container-fluid">
+          <Switch>
+            <Route exact path="/" component={About} />
+            <Route path="collection" component={Collection} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/about" component={About} />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    </React.Fragment>
   );
-}
+};
 
 export default App;
