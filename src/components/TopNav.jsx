@@ -13,7 +13,7 @@ const TopNav = () => {
   };
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
       <div class="container-fluid">
         <NavLink className="navbar-brand" to="/">
           Xiaoran Xu

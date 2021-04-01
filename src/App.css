@@ -1,1 +1,143 @@
 @import url("https://fonts.googleapis.com/css2?family=Manuale&family=Roboto+Mono:wght@400;700&display=swap");
+
+.nav-item {
+  letter-spacing: 0.05em !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #3c3b3b;
+  font-weight: 800;
+  letter-spacing: 0.25em;
+  line-height: 1.65;
+  margin: 0 0 1em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.section {
+  border-style: dashed;
+  border-width: 0.25rem !important;
+  border-color: #0277bd;
+}
+
+.headshot {
+  max-width: 8rem !important;
+  height: auto;
+  border: 0.25rem solid #ffffff44;
+}
+
+.section-title {
+  display: inline-block;
+  font-size: xx-large !important;
+  text-transform: uppercase;
+  font-weight: 900 !important;
+  letter-spacing: 0.25em !important;
+}
+
+.emailCopied {
+  color: white;
+  background-color: black;
+  padding: 0.5rem !important;
+  border-radius: 0rem !important;
+}
+
+.email {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.social-icon {
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  color: #799f78;
+}
+
+.bg-black {
+  color: white;
+  background-color: black;
+  min-height: 80vh;
+}
+
+.wrapper {
+  min-height: 80vh;
+}
+
+.header-link {
+  font-size: 1rem;
+  margin-right: 2.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  color: rgba(36, 126, 129, 0.753);
+}
+
+.header-link:hover {
+  color: #0277bd;
+}
+
+.section-header {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  letter-spacing: 0.15em;
+  color: #0277bd;
+  margin-bottom: 1rem;
+}
+
+.section-container {
+  display: block;
+}
+
+.container-title {
+  margin-bottom: 0.1em;
+  text-transform: none;
+  letter-spacing: 0.1em;
+  font-size: 0.9em;
+  font-weight: 200;
+  margin-top: -0.6em;
+}
+
+.section-container h4 {
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.section-container p {
+  text-transform: none;
+  padding-top: 0.3em;
+  font-size: 0.85em;
+  line-height: 2.5;
+  margin-top: -1em;
+}
+
+.school a {
+  color: black;
+  border-bottom: 1px dotted black;
+}
+.container-title .year {
+  font-size: 0.8em;
+}
+
+.employer {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 500;
+}

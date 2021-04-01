@@ -7,16 +7,17 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Collection from "./components/Collection";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <React.Fragment>
       <BrowserRouter>
-        <TopNav />
-        <div className="container-fluid">
+        <div className="container">
+          <TopNav />
           <Switch>
-            <Route exact path="/" component={About} />
-            <Route path="collection" component={Collection} />
+            <Route exact path="/" component={Home} />
+            <Route path="/collection" component={Collection} />
             <Route path="/resume" component={Resume} />
             <Route path="/contact" component={Contact} />
             <Route path="/about" component={About} />
