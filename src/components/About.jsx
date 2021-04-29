@@ -8,11 +8,7 @@ const About = () => {
       </div>
 
       <div className="container mt-3 text-center">
-        {/* <p>
-          I don't have much to say, then this page won't look good... I want a
-          good page.
-        </p> */}
-        <p>I'm a person with great curiosity.</p>
+        <p>Coming soon...</p>
       </div>
     </div>
   );

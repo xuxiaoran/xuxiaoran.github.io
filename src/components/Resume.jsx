@@ -1,6 +1,6 @@
 import React from "react";
 
-const sections = ["education", "experience", "skills", "courses"];
+const sections = ["education", "experience", "skills"];
 
 const schools = [
   {
@@ -52,10 +52,34 @@ const experiences = [
   },
 ];
 
+const skills = [
+  {
+    category: "Programing Languages",
+    items: ["C++", "Python", "JavaScript", "Java", "SQL", "C#", "C", "Go"],
+  },
+  {
+    category: "Frameworks",
+    items: ["ReactJS", ".NET", "Django", "Bootstrap", "jQuery"],
+  },
+  {
+    category: "Other",
+    items: ["HTML", "CSS"],
+  },
+  {
+    category: "Human Languages",
+    items: [
+      "Chinese",
+      "English",
+      "Japanese (In Progress)",
+      "Korean (In Progress)",
+    ],
+  },
+];
+
 const Resume = () => {
   return (
     <div className="section mb-2">
-      <div className="ml-3 mt-3 mb-3">
+      <div className="m-3">
         <div className="text-center section-title">Resume</div>
         <div className="d-flex align-items-center mt-4">
           {sections.map((section) => (
@@ -94,6 +118,16 @@ const Resume = () => {
                   ))}
                 </ul>
               </p>
+            </div>
+          ))}
+        </div>
+
+        <div id="skills">
+          <div className="section-header">Skills</div>
+          {skills.map((skill) => (
+            <div className="section-container">
+              <h4 className="container-title">{skill.category}</h4>
+              <p>{skill.items.join(", ")}</p>
             </div>
           ))}
         </div>

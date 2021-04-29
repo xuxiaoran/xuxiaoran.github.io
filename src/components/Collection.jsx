@@ -3,9 +3,10 @@ import React from "react";
 const Collection = () => {
   return (
     <div className="section">
-      <div className="ml-3 mt-3 mb-3">
+      <div className="m-3">
         <div className="text-center section-title">Collection</div>
       </div>
+      <div className="m-3">Will update soon...</div>
     </div>
   );
 };

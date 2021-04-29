@@ -57,7 +57,7 @@ const Contact = () => {
 
   return (
     <div className="section">
-      <div className="ml-3 mt-3 mb-3">
+      <div className="m-3">
         <div className="text-center section-title">Contact</div>
         <div className="mt-3">
           <span
