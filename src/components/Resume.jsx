@@ -20,8 +20,16 @@ const schools = [
 const experiences = [
   {
     position: "Software Engineer",
+    employer: "Goldman Sachs",
+    year: "July 2021 - Present",
+    jobs: [
+      "Working as a full stack developer under the global markets division.",
+    ],
+  },
+  {
+    position: "Software Engineer",
     employer: "University of Michigan, Michigan Medicine, Anesthesiology Dept.",
-    year: "March 2020 - Present",
+    year: "March 2020 - July 2021",
     jobs: [
       "Developed the next generation MQUARK application in ReactJS (UI) and Python (API). Highly customizable for the internal medical personnel to build complex surveys for higher healthcare quality and can be configured to use data from not only SQL server, but a various database management types and external APIs.",
       "Developed the MPOG member portal application in ReactJS and Python that keeps track of the status of partners. Provides inline datasheet editing, file management. Worked with the users directly during the development process.",
