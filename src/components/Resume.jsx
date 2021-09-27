@@ -23,7 +23,10 @@ const experiences = [
     employer: "Goldman Sachs",
     year: "July 2021 - Present",
     jobs: [
-      "Working as a full stack developer under the global markets division.",
+      "Contribute to the back-end of multiple trading platform and data processing platform in Python and MongoDB.",
+      "Develop back-end endpoints to interact with in-house database and programming language to move data around.",
+      "Work closely with traders to support daily business, develop new product features according to business needs.",
+      "Maintain group code base and contribute to the firmwide code base using in-house technology as well.",
     ],
   },
   {
